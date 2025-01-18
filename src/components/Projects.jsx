@@ -7,7 +7,7 @@ const projects = [
     {
       title: "LearnByWriting",
       description: "A project to help language learners enthousist improve by writing daily.",
-      link: "https://learnbywrittingv2.netlify.app/",
+      link: "https://learnbywritingv3.netlify.app/",
     },
     {
         title: "Ikimina Voting",
