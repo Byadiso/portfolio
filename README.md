@@ -6,7 +6,7 @@ This project showcases my work as a web developer, featuring a collection of web
 
 ## Features
 - Built responsive, user-friendly websites and web applications.
-- Utilized technologies like **React**, **Node.js**, and **WordPress** for dynamic functionality.
+- Utilized technologies like **React**, **Node.js**, **tailwind**, and **firebase** for dynamic functionality.
 - Optimized website performance and enhanced user experience.
 
 ## Usage
