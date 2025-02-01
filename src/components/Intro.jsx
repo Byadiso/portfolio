@@ -16,6 +16,7 @@ const Intro = () => {
       >
         View My Work
       </a>
+     
     </motion.section>
   );
 };

@@ -1,34 +1,36 @@
 const projects = [
+
+  {
+    title: "Ngana Tech Website",
+    description: "Ngana Tech Website – A professional and innovative website for Ngana Tech, showcasing its technology solutions, services, and mission. Designed for clarity and engagement, it highlights the company's expertise and vision.",
+    link: "https://www.nganatech.com/",
+  },
+  {
+      title: "Yoop.rw website ",
+      description: "Yoop.rw Website – A dynamic and user-friendly website for Yoop.rw, offering seamless access to its services and features. Designed for efficiency and engagement, it enhances user experience with intuitive navigation and a modern interface.",
+      link: "https://yoop.rw/",
+    },
     {
       title: "Bugedet  Tracker",
-      description: "A bugdet tracker .",
+      description: "A simple and intuitive budget tracker to help users manage expenses, track income, and stay on top of their finances. It provides clear insights for better financial planning and control.",
       link: "https://bugdeto.netlify.app/",
     },
     {
       title: "LearnByWriting",
-      description: "A project to help language learners enthousist improve by writing daily.",
+      description: "A writing app designed for language learners to practice daily and improve their skills consistently. It encourages regular writing to enhance fluency and confidence.",
       link: "https://learnbywritingv3.netlify.app/",
     },
     {
         title: "Ikimina Voting",
-        description: "A beaufiful voting app which generate a random number and assign to members by default it 10 members and 10 places to allocate randomly.",
+        description: "A sleek voting app that randomly assigns numbers to members, with a default of 10 members and 10 places. It ensures fair and dynamic allocation for an engaging experience.",
         link: "https://ikiminavoting.netlify.app/",
       },
       {
-        title: "Crypto Tracker",
-        description: "A Web3 app for tracking crypto prices in real time.",
-        link: "https://cryptotracker.com",
+        title: "Ballet icyeza website",
+        description: "Ballet Icyeza Website – A beautifully designed website showcasing Ballet Icyeza, highlighting its performances, classes, and mission. It provides an elegant platform for dancers, enthusiasts, and supporters to engage with the art of ballet.",
+        link: "https://balleticyeza.com/",
       },
-      {
-        title: "NFT Gallery",
-        description: "A beautiful gallery to showcase NFTs using Web3.js.",
-        link: "https://nftgallery.com",
-      },
-      {
-          title: "Ikimina Voting",
-          description: "A beaufiful voting app which generate a random number and assign to members by default it 10 members and 10 places to allocate randomly.",
-          link: "https://ikiminavoting.netlify.app/",
-        },
+      
   ];
   
   const Projects = () => {
