@@ -26,3 +26,6 @@ This project showcases my work as a web developer, featuring a collection of web
    npm start
    ```
 
+## Live Demo
+
+Live demo can be test from the following sources: https://portfolio-deso.netlify.app/
