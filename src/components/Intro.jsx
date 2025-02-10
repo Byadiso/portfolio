@@ -8,7 +8,7 @@ const Intro = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <h1 className="text-5xl font-bold">Hi, I&#39;m Desire BYAMUNGU 👋</h1>
+      <h1 className="text-5xl font-bold">Hi👋, I&#39;m Desire BYAMUNGU! </h1>
       <p className="mt-4 text-xl">Building the future, one line of code at a time.</p>
       <a
         href="#projects"

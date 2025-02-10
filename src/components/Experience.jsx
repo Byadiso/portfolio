@@ -25,7 +25,7 @@ const experiences = [
     return (
       <section id="experience" className="py-16 bg-gray-200 dark:bg-darkBg">
         <h2 className="text-4xl font-bold text-center mb-8">Experience</h2>
-        <div className="flex flex-row gap-6 items-center">
+        <div className="flex flex-wrap justify-center gap-6">
           {experiences.map((exp, index) => (
             <div key={index} className="bg-white dark:bg-darkCard p-6 rounded-lg shadow-md w-80">
               <h3 className="text-2xl font-bold">{exp.role}</h3>
