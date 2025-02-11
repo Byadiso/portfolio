@@ -1,6 +1,6 @@
 import { Grid, Chip } from "@mui/material";
 
-const skills = [ "React", "Node.js", "JavaScript","Python", "CSS", "WordPress","Git", "Tailwind"];
+const skills = [ "JavaScript", "React.js","Next.js", "Node.js", "Python", "CSS", "WordPress","Git","Postman", "Tailwind","firebase","AWS","MongoDB"];
 
 const Skills = () => {
   return (
