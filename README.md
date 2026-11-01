@@ -1,180 +1,269 @@
-# Desire Byamungu — Software Developer Portfolio
+# Desire Byamungu — Developer Portfolio
 
 **Full-Stack Developer | React & React Native | Python | PHP & WordPress | AI & Automation**
 
-Welcome to my personal developer portfolio! This website showcases my technical expertise, professional experience, and software development projects across web applications, mobile development, automation, artificial intelligence, and WordPress development.
+[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-Visit_Website-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://portfolio-deso.netlify.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Byadiso-181717?style=for-the-badge&logo=github)](https://github.com/Byadiso)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/desire-byamungu-5b0785a1/)
 
-I enjoy building practical, scalable, and user-focused solutions that solve real-world problems.
+### 🌐 [View Live Portfolio](https://portfolio-deso.netlify.app/)
 
-🌐 **Portfolio:** [GitHub Repository](https://github.com/Byadiso/portfolio)  
-💻 **GitHub:** [@Byadiso](https://github.com/Byadiso)  
-💼 **LinkedIn:** [Desire Byamungu](https://www.linkedin.com/in/desire-byamungu-5b0785a1/)  
-📧 **Email:** [byadiso@gmail.com](mailto:byadiso@gmail.com)
+Welcome to my personal developer portfolio! I'm **Desire Byamungu**, a software developer passionate about building practical, scalable, and user-centered digital solutions.
+
+My work spans full-stack web development, mobile applications, WordPress plugin development, Python automation, artificial intelligence, and computer vision.
+
+This portfolio showcases my technical expertise, selected projects, and continuous growth as a developer.
 
 ---
 
-## About This Portfolio
+## About the Portfolio
 
-A modern, responsive developer portfolio built with React, designed to provide recruiters, hiring managers, and collaborators with a clear overview of my technical capabilities and project experience.
+A modern, responsive portfolio built with React and deployed on Netlify.
+
+Designed for recruiters, hiring managers, developers, and potential collaborators, it provides a clear overview of my technical capabilities and practical software engineering experience.
 
 ### Key Features
 
-- Modern, responsive design optimized for desktop, tablet, and mobile.
-- Professional introduction and technical expertise overview.
-- Portfolio featuring 15 software development projects.
-- Categorized projects across web, mobile, WordPress, AI, and automation.
-- Direct GitHub repository links for exploring project source code.
-- Interactive navigation and consistent UI styling.
-- LinkedIn and email contact integration.
-- Reusable React components for maintainability and scalability.
+- **Modern UI/UX:** Clean, consistent design with responsive layouts.
+- **Project Showcase:** 15 GitHub projects covering multiple development disciplines.
+- **Technical Expertise:** Organized presentation of programming languages, frameworks, and tools.
+- **Project Filtering:** Explore projects by development category.
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
+- **Direct Contact:** LinkedIn and email integration.
+- **GitHub Integration:** Direct links to project repositories.
+- **Maintainable Architecture:** Component-based React application structure.
+
+**Live Website:** https://portfolio-deso.netlify.app/
 
 ---
 
-## Technical Expertise
+## Technical Skills & Expertise
 
-| Category | Technologies |
+| Category | Technologies & Tools |
 |---|---|
-| Frontend Development | React, JavaScript, HTML5, CSS3, Redux, Material UI, Tailwind CSS |
-| Backend Development | Python, PHP, Firebase |
-| Mobile Development | React Native, Expo |
-| WordPress Development | Custom Plugin Development, WordPress Hooks, PHP |
-| AI & Computer Vision | YOLOv8, OpenCV, AI-Assisted Automation |
-| Data & Automation | Python, Playwright, Streamlit, SQLite, GitHub Actions |
-| Tools & Platforms | Git, GitHub, Netlify, Vercel, Firebase, REST APIs |
+| **Frontend Development** | React, JavaScript, HTML5, CSS3, Redux, Material UI, Tailwind CSS |
+| **Backend Development** | Python, PHP, Firebase |
+| **Mobile Development** | React Native, Expo |
+| **WordPress Development** | Custom Plugins, WordPress Hooks, PHP, WordPress Security |
+| **AI & Computer Vision** | YOLOv8, OpenCV, Machine Learning Integration |
+| **Automation & Scraping** | Python, Playwright, GitHub Actions |
+| **Data & Analytics** | SQLite, Streamlit, Excel, Data Visualization |
+| **Cloud & Deployment** | Netlify, Vercel, Firebase, GitHub Pages |
+| **Development Tools** | Git, GitHub, REST APIs, VS Code |
 
 ---
 
 ## Featured Projects
 
-### 1. LEBWPOLISH — Polish Language Learning Platform
+### 01. LEBWPOLISH — Polish Language Learning Platform
 
-A React 19 and Firebase application designed to help learners progress toward B1-level Polish through structured daily activities.
+A modern language-learning platform built with React 19 and Firebase, designed to help learners progressively achieve B1-level Polish proficiency through short, engaging daily activities.
 
-**Highlights:**
+**Key Features**
 - Guided daily learning missions.
-- Spaced-repetition sentence completion exercises.
-- Writing studio and grammar practice.
-- Reading and role-play activities.
-- Cross-device progress synchronization.
-- Offline standalone learning game.
+- Spaced-repetition cloze sentence game.
+- Interactive writing studio.
+- Grammar, reading, and role-play exercises.
+- Cross-device learning progress synchronization.
+- Offline standalone game.
+- Regression tests and Netlify deployment.
 
 **Tech Stack:** React 19, Firebase, JavaScript, Netlify
 
-[View Repository](https://github.com/Byadiso/lebwpolish)
+**Repository:** [LEBWPOLISH](https://github.com/Byadiso/lebwpolish)
 
-### 2. Healthy Watcher — Website Monitoring System
+### 02. Healthy Watcher — Automated Website Monitoring
 
-An automated website uptime monitoring solution that tracks website availability and response times.
+A lightweight website monitoring platform that automatically tracks website availability and performance without requiring a dedicated server.
 
-**Highlights:**
-- Automated monitoring every 30 minutes.
+**Key Features**
+- Website availability checks every 30 minutes.
 - Telegram notifications for downtime and recovery.
-- Streamlit dashboard with uptime analytics.
-- Invite-only multi-user access and audit logs.
-- Serverless execution using GitHub Actions.
+- Uptime and response-time analytics.
+- Streamlit monitoring dashboard.
+- Invite-only multi-user access.
+- Audit logging.
+- Serverless scheduling with GitHub Actions.
 
 **Tech Stack:** Python, SQLite, Streamlit, GitHub Actions, Telegram API
 
-[View Repository](https://github.com/Byadiso/healthy-watcher)
+**Repository:** [Healthy Watcher](https://github.com/Byadiso/healthy-watcher)
 
-### 3. HireMeD — Automated Job Discovery
+### 03. HireMeD — Intelligent Job Discovery Automation
 
-An automated job-search pipeline focused on identifying relevant IT opportunities in Poland.
+An automated job-hunting pipeline designed to identify relevant IT opportunities in the Polish job market.
 
-**Highlights:**
-- Job discovery through the Adzuna API.
-- Automated job-description extraction.
+**Key Features**
+- Job listing retrieval through the Adzuna API.
+- Automated job-description extraction using Playwright.
 - Polish-to-English translation.
 - Resume matching using cosine similarity.
-- Telegram alerts for relevant opportunities.
-- Excel reporting and Streamlit analytics.
+- Telegram alerts for roles scoring above 50%.
+- Excel reporting and Streamlit dashboard.
+- Automated execution every 30 minutes.
 
-**Tech Stack:** Python, Playwright, Streamlit, GitHub Actions, APIs
+**Tech Stack:** Python, Playwright, Streamlit, GitHub Actions, Adzuna API
 
-[View Repository](https://github.com/Byadiso/HireMeD)
+**Repository:** [HireMeD](https://github.com/Byadiso/HireMeD)
 
-### 4. Budgeto — Personal Finance Management
+### 04. Budgeto — Personal Finance Management
 
-A personal finance application for managing expenses, tracking income, and planning financial goals.
+A personal finance application designed to simplify income tracking, expense management, budgeting, and savings planning.
 
-**Highlights:**
+**Key Features**
 - Income and expense tracking.
-- Monthly budgeting.
+- Monthly budget planning.
 - Savings goal management.
-- Real-time data synchronization.
-- Responsive dashboard.
+- Real-time synchronization.
+- Responsive financial dashboard.
 
 **Tech Stack:** React, Redux, Material UI, Firebase
 
-[View Repository](https://github.com/Byadiso/budgeto)
+**Repository:** [Budgeto](https://github.com/Byadiso/budgeto)
 
-### 5. Malware Scanner by Date — WordPress Security Plugin
+### 05. Malware Scanner by Date — WordPress Security Plugin
 
-A WordPress security plugin designed to investigate compromised websites by identifying files created or modified within a specified time range.
+A WordPress security plugin developed to help investigate compromised websites by identifying suspicious files created or modified during a specified time window.
 
-**Highlights:**
-- File scanning based on modification dates.
+Inspired by a real-world website cleanup involving thousands of injected files.
+
+**Key Features**
+- File scanning by modification date.
 - Detection of suspicious PHP, JavaScript, and HTML patterns.
-- Live scanning progress.
+- Identification of potentially malicious functions.
+- Real-time scan progress.
 - File quarantine functionality.
-- Scan logging and WordPress core protection.
+- Scan logs.
+- WordPress core file protection.
 
 **Tech Stack:** PHP, WordPress, JavaScript
 
-[View Repository](https://github.com/Byadiso/malware-scanner-by-date)
+**License:** GPL v2
 
-### 6. Stonka Hunter — AI-Powered Pest Detection
+**Repository:** [Malware Scanner by Date](https://github.com/Byadiso/malware-scanner-by-date)
 
-A computer-vision application that assists farmers in identifying agricultural pests through image recognition.
+### 06. Stonka Hunter — AI-Powered Agricultural Pest Detection
 
-**Highlights:**
-- Custom-trained YOLOv8 detection model.
-- Camera and image-upload support.
+A computer-vision application designed to assist farmers in detecting the Colorado potato beetle and other insects using machine learning.
+
+**Key Features**
+- Custom-trained YOLOv8 model.
+- Detection across a 12-class insect dataset.
+- Live camera and uploaded-image analysis.
 - Priority alerts for Colorado potato beetles.
-- Detection gallery.
+- Detection history gallery.
 - Weather and location context.
+- Adjustable confidence settings.
 
 **Tech Stack:** Python, YOLOv8, OpenCV, Streamlit
 
-[View Repository](https://github.com/Byadiso/Stonka-Hunter)
+**License:** MIT
 
-### 7. Rwanda Tourism Service-Gap Finder
+**Repository:** [Stonka Hunter](https://github.com/Byadiso/Stonka-Hunter)
 
-A market-intelligence automation project that identifies potential digital service opportunities among tourism businesses in Rwanda.
+### 07. Rwanda Tourism Service-Gap Finder
 
-**Highlights:**
-- Automated collection of public business listing information.
-- Identification of missing websites and limited online visibility.
-- Business rating and review analysis.
+A Python-based market-intelligence tool designed to identify digital service opportunities within Rwanda's tourism industry.
+
+**Key Features**
+- Automated analysis of Google Maps business listings.
+- Coverage of Kigali, Musanze, Gisenyi, and Butare.
+- Identification of businesses without websites.
+- Analysis of ratings and review availability.
+- Service-gap classification.
 - Excel lead exports.
 
 **Tech Stack:** Python, Playwright, Excel
 
-[View Repository](https://github.com/Byadiso/service_gap_finder)
+**Repository:** [Service Gap Finder](https://github.com/Byadiso/service_gap_finder)
 
-### 8. OURA — Rwanda Transport Mobile Application
+### 08. OURA — Rwanda Public Transport Mobile App
 
-A React Native mobile application project focused on Rwanda's public transport and bus ecosystem.
+A React Native mobile application project focused on exploring digital solutions for Rwanda's public transportation and bus ecosystem.
 
-The project explores mobile-first approaches to making transportation services more accessible and convenient for users.
+The project aims to improve accessibility and convenience through a mobile-first transport experience.
 
 **Tech Stack:** React Native
 
-[View Repository](https://github.com/Byadiso/oura)
+**Repository:** [OURA](https://github.com/Byadiso/oura)
+
+*Detailed functionality and technical documentation are being expanded.*
 
 ---
 
 ## Additional Projects
 
-| Project | Description | Repository |
-|---|---|---|
-| Rwanda Flight Price Tracker | Automated flight-price monitoring and Telegram deal notifications using the Duffel API. | [GitHub](https://github.com/Byadiso/kigali_flight) |
-| LEBWPOLISH Mobile | Mobile adaptation of the Polish-learning platform using React Native and Expo. | [GitHub](https://github.com/Byadiso/lebwpolish-App) |
-| Ikimina Voting App | Community voting application with unique-code authentication and randomized assignments. | [GitHub](https://github.com/Byadiso/ikimina_voting_app) |
-| LearnByWritingV3 | Language-learning platform focused on daily writing practice. | [GitHub](https://github.com/Byadiso/learnByWritingV3) |
-| Saving for Future | Savings-focused application project; detailed functionality documentation is being prepared. | [GitHub](https://github.com/Byadiso/savingforfuture) |
-| RwandaLead AI | AI-oriented software project; detailed technical documentation is being prepared. | [GitHub](https://github.com/Byadiso/rwandalead-ai) |
-| PharmaFind | React and Tailwind CSS web application; functional documentation is being expanded. | [GitHub](https://github.com/Byadiso/PharmaFind) |
+### 09. Rwanda Flight Price Tracker
+
+An automated flight-price monitoring bot that compares travel options between Poland/Germany and Kigali.
+
+It uses the Duffel API, converts prices to PLN, and sends Telegram notifications when suitable flight deals are identified.
+
+**Tech Stack:** Python, Duffel API, GitHub Actions, Telegram API
+
+[View Repository](https://github.com/Byadiso/kigali_flight)
+
+### 10. LEBWPOLISH Mobile
+
+A mobile adaptation of the LEBWPOLISH learning platform, developed using React Native and Expo.
+
+The repository includes Tailwind-based styling and Expo Application Services workflows.
+
+**Tech Stack:** React Native, Expo, Tailwind CSS, EAS
+
+[View Repository](https://github.com/Byadiso/lebwpolish-App)
+
+### 11. Ikimina Voting App
+
+A responsive voting application designed for community savings-group activities.
+
+Participants authenticate using unique codes, complete a limited number of tests, receive randomized name-number assignments, and participate in voting.
+
+Developed at NganaTech.
+
+**Tech Stack:** React, JavaScript, Local Storage, Vercel
+
+[View Repository](https://github.com/Byadiso/ikimina_voting_app)
+
+### 12. LearnByWritingV3
+
+A language-learning application centered on improving writing skills through consistent daily practice.
+
+It combines a responsive interface with Firebase-backed functionality.
+
+**Tech Stack:** React, Redux, Material UI, Firebase
+
+[View Repository](https://github.com/Byadiso/learnByWritingV3)
+
+### 13. Saving for Future
+
+A savings-focused software project exploring digital approaches to personal financial planning and long-term savings management.
+
+The project is part of my broader interest in practical financial technology applications.
+
+**Repository:** [Saving for Future](https://github.com/Byadiso/savingforfuture)
+
+*Technical details and feature documentation are being prepared.*
+
+### 14. RwandaLead AI
+
+An AI-oriented software project exploring how automation and intelligent data processing can support business-related workflows and decision-making.
+
+**Repository:** [RwandaLead AI](https://github.com/Byadiso/rwandalead-ai)
+
+*The full feature set and technical architecture will be documented in a future update.*
+
+### 15. PharmaFind
+
+A React and Tailwind CSS web application project.
+
+It demonstrates frontend application development using a component-based architecture and utility-first styling.
+
+**Tech Stack:** React, Tailwind CSS
+
+**Repository:** [PharmaFind](https://github.com/Byadiso/PharmaFind)
+
+*Additional functionality documentation is being prepared.*
 
 ---
 
@@ -182,73 +271,95 @@ The project explores mobile-first approaches to making transportation services m
 
 ### Prerequisites
 
-Ensure you have the following installed:
+Before running the portfolio locally, ensure you have:
 
 - Node.js
 - npm
-- Git (optional for local development)
+- Git (optional if using a downloaded ZIP)
 
 ### Installation
 
-Clone the repository:
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/Byadiso/portfolio.git
 ```
 
-Navigate to the project directory:
+Alternatively, download the project as a ZIP from GitHub and extract it.
+
+**2. Navigate to the project directory**
 
 ```bash
 cd portfolio
 ```
 
-Install dependencies:
+**3. Install dependencies**
 
 ```bash
 npm install
 ```
 
-Start the development server:
+**4. Start the development server**
 
 ```bash
 npm start
 ```
 
-The application will normally be available at:
+Open your browser at:
 
-**http://localhost:3000**
+http://localhost:3000
 
-### Production Build
+---
 
-Generate an optimized production build:
+## Production Build
+
+To generate an optimized production build:
 
 ```bash
 npm run build
 ```
 
-The production files will be generated in the `build/` directory.
+The generated production files will be placed in the `build/` directory.
 
 ---
 
 ## Deployment
 
-The portfolio is designed for deployment on static hosting platforms such as:
+The portfolio is hosted on **Netlify**, providing static hosting and continuous deployment capabilities.
 
-- Netlify
-- Vercel
-- GitHub Pages
+### Production Website
 
-Before deployment, verify the production build and configure any hosting-specific routing requirements.
+**[https://portfolio-deso.netlify.app/](https://portfolio-deso.netlify.app/)**
+
+### Deploying to Netlify
+
+1. Sign in to Netlify.
+2. Select **Add new project**.
+3. Import the GitHub repository.
+4. Configure the build settings:
+
+| Setting | Value |
+|---|---|
+| Build command | `npm run build` |
+| Publish directory | `build` |
+| Deployment branch | `main` |
+
+5. Deploy the website.
+
+These settings assume a Create React App configuration. Adjust them if the project's build setup changes.
 
 ---
 
-## Project Structure
+## Project Architecture
 
-The portfolio follows a React application structure, with components, styling, assets, and project information organized for maintainability.
+The portfolio uses a component-based React architecture to support maintainability, consistency, and future improvements.
+
+A typical structure includes:
 
 ```text
 portfolio/
 ├── public/
+│   └── index.html
 ├── src/
 │   ├── components/
 │   ├── assets/
@@ -259,34 +370,43 @@ portfolio/
 └── .gitignore
 ```
 
-*The exact directory structure may differ depending on the current implementation.*
+*The actual folder structure may differ depending on the current source code.*
 
 ---
 
-## Future Improvements
+## Development Roadmap
 
-The portfolio is continuously evolving. Planned enhancements include:
+Future improvements include:
 
-- Dedicated case-study pages for major projects.
-- Additional project screenshots and demonstrations.
-- Improved accessibility and performance.
-- Expanded technical documentation.
-- More detailed descriptions of project architecture and challenges.
-- Further UI and user-experience refinements.
+- [ ] Dedicated project case-study pages.
+- [ ] Project screenshots and interactive demonstrations.
+- [ ] Expanded README documentation for individual projects.
+- [ ] Improved accessibility and performance.
+- [ ] Additional animations and micro-interactions.
+- [ ] More detailed technical architecture explanations.
+- [ ] Enhanced mobile user experience.
+- [ ] Automated deployment and testing improvements.
 
 ---
 
 ## Let's Connect
 
-I'm interested in opportunities involving full-stack development, React, React Native, Python, WordPress, automation, and practical AI solutions.
+I'm open to professional opportunities, collaborations, and projects involving:
 
-Whether you're a recruiter, developer, or potential collaborator, feel free to get in touch.
+- Full-stack web development.
+- React and React Native applications.
+- Python development and automation.
+- WordPress plugin development.
+- AI and computer-vision applications.
+- Software engineering and digital solutions.
 
-**LinkedIn:** [Start a Conversation](https://www.linkedin.com/in/desire-byamungu-5b0785a1/)
+**🌐 Portfolio:** [portfolio-deso.netlify.app](https://portfolio-deso.netlify.app/)
 
-**Email:** [byadiso@gmail.com](mailto:byadiso@gmail.com)
+**💼 LinkedIn:** [Start a Conversation](https://www.linkedin.com/in/desire-byamungu-5b0785a1/)
 
-**GitHub:** [Explore My Work](https://github.com/Byadiso)
+**📧 Email:** [byadiso@gmail.com](mailto:byadiso@gmail.com)
+
+**💻 GitHub:** [github.com/Byadiso](https://github.com/Byadiso)
 
 ---
 
@@ -294,8 +414,10 @@ Whether you're a recruiter, developer, or potential collaborator, feel free to g
 
 Copyright © 2026 Desire Byamungu.
 
-No separate open-source license is specified for this portfolio repository. Individual featured projects may have their own licenses.
+No separate open-source license is specified for this portfolio repository. Featured projects may have their own individual licenses.
 
 ---
 
 **Designed and developed by Desire Byamungu.**
+
+*Building practical technology solutions, one project at a time.*
